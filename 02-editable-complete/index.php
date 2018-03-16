@@ -12,6 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 function gutendev_02_editable_block_complete_init() {
 
+	// Register editor JS
 	wp_register_script(
 		'gutendev-02-editable-block-complete-editor',
 		plugins_url( 'assets/block.js', __FILE__ ),
@@ -22,6 +23,7 @@ function gutendev_02_editable_block_complete_init() {
 		)
 	);
 
+	// Register editor CSS
 	wp_register_style(
 		'gutendev-02-editable-block-complete-editor',
 		plugins_url( 'assets/editor.css', __FILE__ ),
@@ -30,6 +32,7 @@ function gutendev_02_editable_block_complete_init() {
 		)
 	);
 
+	// Register front-end CSS
 	wp_register_style(
 		'gutendev-02-editable-block-complete',
 		plugins_url( 'assets/style.css', __FILE__ ),
@@ -38,10 +41,16 @@ function gutendev_02_editable_block_complete_init() {
 		)
 	);
 
-	register_block_type( 'gutendev/gutendev-02-editable-block-complete', array(
-		'editor_script' => 'gutendev-02-editable-block-complete-editor',
-		'editor_style'  => 'gutendev-02-editable-block-complete-editor',
-		'style'         => 'gutendev-02-editable-block-complete',
-	) );
+	// Register block assets
+	if ( function_exists( 'register_block_type' ) ) {
+		register_block_type(
+			'gutendev/gutendev-02-editable-block-complete',
+			array(
+				'editor_script' => 'gutendev-02-editable-block-complete-editor',
+				'editor_style'  => 'gutendev-02-editable-block-complete-editor',
+				'style'         => 'gutendev-02-editable-block-complete',
+			)
+		);
+	}
 }
 add_action( 'init', 'gutendev_02_editable_block_complete_init' );
