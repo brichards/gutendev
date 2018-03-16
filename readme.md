@@ -51,7 +51,7 @@ This step is [necessary for git to have write permissions](http://local.getflywh
 ![](https://d.pr/i/5ipZx8+)
 
 ### 3. Install git
-`apt-get update && apt-get -y install git`
+`apt-get update && apt-get -y install git wget`
 
 ### 4. Install node and npm
 `wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | NVM_DIR=/usr/local/nvm bash && \. /usr/local/nvm/nvm.sh && nvm install node`
