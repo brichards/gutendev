@@ -58,7 +58,7 @@ This step is [necessary for git to have write permissions](http://local.getflywh
 ### 5. Install gutenberg and the workshop starter plugin
 - `cd /app/public/wp-content/plugins`
 - `wp plugin install --activate gutenberg`
-- `git clone git@github.com:brichards/gutendev.git`
+- `git clone https://github.com/brichards/gutendev.git`
 - `wp plugin activate gutendev`
 
 ### 6. Update WP-CLI to latest release
