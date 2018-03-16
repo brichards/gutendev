@@ -59,7 +59,8 @@ This step is [necessary for git to have write permissions](http://local.getflywh
 - `cd /app/public/wp-content/plugins`
 - `wp plugin install --activate gutenberg`
 - `git clone https://github.com/brichards/gutendev.git`
-- `wp plugin activate gutendev`
+- `git clone https://github.com/caldera-learn/alert-block.git`
+- `wp plugin activate gutendev alert-block`
 
 ### 6. Update WP-CLI to latest release
 - `wp cli update --yes`
