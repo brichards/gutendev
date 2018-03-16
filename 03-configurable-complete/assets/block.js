@@ -79,11 +79,10 @@
 			 * Attributes for accessing configurable block data
 			 */
 			attributes: {
-				// The editable "message" value, props.attributes.message
-				message: {
-					type: 'array', // This attribute's value is an array
-					source: 'children', // The array contains children elements of the selected element
-					selector: '.gutendev-notice', // The selected element has a class of "ex4-notice"
+				message: {					
+					source: 'text', 
+					type: 'string',
+					selector: '.gutendev-notice',
 				},
 			},
 

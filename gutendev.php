@@ -13,6 +13,7 @@
  */
 
 # Example 01 - Static Block
+// require_once plugin_dir_path( __FILE__ ) . '/00-snippets/library-access/index.php';
 require_once plugin_dir_path( __FILE__ ) . '/01-static/index.php';
 // require_once plugin_dir_path( __FILE__ ) . '/01-static-complete/index.php';
 
