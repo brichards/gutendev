@@ -13,6 +13,15 @@ This plugin can be installed like every other WordPress plugin:
 
 ----------------------------------
 
+# Speaker Slides
+
+- [Grezegorz Ziółkowski's slides](https://speakerdeck.com/gziolo/the-future-of-wordpress-development)
+- [Zac Gordon's slides](https://docs.google.com/presentation/d/1rE9eI3_1-ZaPPdl2efYJhEl7yIKTrEbCZSh13zIc3HM/)
+- [Brian Richards slides](https://docs.google.com/presentation/d/1dYQUVWbPVjAbSt-pLd1c9kJuAQ4dRBgiYJnefcXGDts/)
+- [Josh Pollock's slides](https://www.slideshare.net/Shelob9/slightly-advanced-topics-in-gutenberg-development)
+
+----------------------------------
+
 # WCMIA 2018 Developer Workshop
 Hello! We are all very excited to host you for the Future of WordPress Development Workshop. Below are some notes to help you prepare for Friday's day-long event.
 
