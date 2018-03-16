@@ -1,14 +1,15 @@
 # Welcome!
 This plugin is designed to be the instructional companion to the [WordCamp Miami 2018 Developer workshop](https://2018.miami.wordcamp.org/friday-developers/).
 
-**Code samples are still being added. You'll need to pull a fresh copy of this plugin on Thursday night or Friday morning.**
-
 In its default state this plugin does nothing. Throughout the workshop we will be enabling each new section and writing code to power our custom blocks. To enable each custom block, edit the `gutendev.php` file and uncomment the include statement for the given section. The `*-complete` directory includes final, working code for each lesson. Review and include these directories to see the desired outcome after practicing yourself in the working directories.
 
 This plugin can be installed like every other WordPress plugin:
 
 1. Add this plugin's folder to the `/wp-content/plugins/` directory (e.g. `git clone git@github.com:brichards/gutendev.git`)
 1. Activate the plugin either via the 'Plugins' menu in WordPress or via WP-CLI (e.g. `wp plugin activate gutendev`)
+
+## There is a second instructional plugin which you can install from https://github.com/caldera-learn/alert-block
+(Run `git clone https://github.com/caldera-learn/alert-block.git` inside your wp-content/plugins directory)
 
 ----------------------------------
 
